@@ -105,15 +105,15 @@ article img {
 #switch4:checked ~ #text label .fourth,
 #switch5:checked ~ #text label .fifth{
  display: block;
- color: white;
- float: left;
- margin: 0px;
- font-family: 'Montserrat', sans-serif;
- font-size: 25px;
  transform: translateX(0);
 }
 p{
     overflow: hidden;
+    color: white;
+ float: left;
+ margin: 0px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 25px;
 }
 span{
     animation: slideRight 1s forwards;
@@ -128,5 +128,33 @@ span{
     }
     100% {
       transform: translateX(0%);
+    }
+  }
+  @media(max-width:420px){
+    #slider{
+        position: relative;
+        text-align: center;
+        top: 10px;
+        margin: 0 auto;
+        width: 300px;
+    }
+    #active {
+        margin: 20px 0 0;
+        float: none;
+        text-align: center;
+    }
+    #text {
+        margin-top: 20px;
+    }
+    p{
+        color: white;
+        float: left;
+        margin: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+    #active label{
+        width: 8px;
+        height: 8px;
     }
   }
