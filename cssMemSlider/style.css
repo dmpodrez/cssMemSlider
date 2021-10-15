@@ -6,7 +6,7 @@ body{
     text-align: center;
     top: 10px;
     margin: 0 auto;
-    width: 960px;
+    width: 60em;
 }
 
 #slider article {
@@ -29,7 +29,7 @@ article img {
 }
 
 #dekstor :checked ~ #slider{
-    max-width: 1024px;
+    max-width: 64em;
 }
 
 .all input{
@@ -113,7 +113,7 @@ p{
  float: left;
  margin: 0px;
  font-family: 'Montserrat', sans-serif;
- font-size: 25px;
+ font-size: 1.6em;
 }
 span{
     animation: slideRight 1s forwards;
@@ -136,7 +136,7 @@ span{
         text-align: center;
         top: 10px;
         margin: 0 auto;
-        width: 300px;
+        width: 18.75rem;
     }
     #active {
         margin: 20px 0 0;
@@ -151,7 +151,7 @@ span{
         float: left;
         margin: 0px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size:  1em;
     }
     #active label{
         width: 8px;
