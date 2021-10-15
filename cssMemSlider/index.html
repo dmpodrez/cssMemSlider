@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <title>Memslider</title>
 </head>
 <body>
-    <div id="all">
+    <div class="all">
         <input checked type="radio" name="respond" id="dekstor">
         <article id="slider">
             <input checked type="radio" name="slider" id="switch1">
@@ -19,28 +22,27 @@
             <div id="slides">
                 <div id="overflow">
                     <div class="image">
-                        <article><img src="images/1.jpg" alt=""><p>I prefer SASS...</p></article>
-                        <article><img src="images/2.jpeg" alt=""><p>Why I need use CSS</p></article>
-                        <article><img src="images/3.jpeg" alt=""><p>Don't think about it</p></article>
-                        <article><img src="images/4.jpeg" alt=""><p>Think about it</p></article>
-                        <article><img src="images/5.jpeg" alt=""><p>It is truth!!!</p></article>
+                        <article><img src="images/1.jpeg" alt=""></article>
+                        <article><img src="images/2.jpeg" alt=""></article>
+                        <article><img src="images/3.jpeg" alt=""></article>
+                        <article><img src="images/4.jpeg" alt=""></article>
+                        <article><img src="images/5.jpeg" alt=""></article>
                     </div>
                 </div>
             </div>
-            <div id="controls">
-                <label for="switch1"></label>
-                <label for="switch2"></label>
-                <label for="switch3"></label>
-                <label for="switch4"></label>
-                <label for="switch5"></label>
-            </div>
-
             <div id="active">
                 <label for="switch1"></label>
                 <label for="switch2"></label>
                 <label for="switch3"></label>
                 <label for="switch4"></label>
                 <label for="switch5"></label>
+            </div>
+            <div id="text">
+                <label for="switch1"><p class="first"><span>Think about it</span></p></label>
+                <label for="switch2"><p class="second"><span>It hurts a lot</span></p></label>
+                <label for="switch3"><p class="third"><span>JAVASRIPT leave the chat</span></p></label>
+                <label for="switch4"><p class="fourth"><span>It's so funny)</span></p></label>
+                <label for="switch5"><p class="fifth"><span>JAVASCRIPT!!!</span></p></label>
             </div>
         </article>
     </div>
